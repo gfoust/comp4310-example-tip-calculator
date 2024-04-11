@@ -1,0 +1,43 @@
+
+tip-form {
+    display: block;
+    padding: 1em;
+    border: 1px solid lightgray;
+    border-radius: 0.5ex;
+}
+
+tip-form .inputs {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+
+tip-form label {
+    margin-right: 1ex;
+}
+
+tip-form .spacer {
+    display: inline-block;
+    width: 5ex;
+}
+
+tip-form .error {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+tip-form .error input {
+    border-color: red;
+}
+
+tip-form .error input:focus {
+    outline-color: #900;
+}
+
+tip-form .error .message {
+    font-size: 75%;
+    color: red;
+}
+
+
